@@ -1,0 +1,102 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    align-items: center;
+    background: linear-gradient(45deg, rgb(9, 9, 77), rgb(97, 7, 97),rgb(9, 9, 77) );
+    display: flex;
+    font-family: 'Dosis', sans-serif;
+    font-display: swap;
+    height: inherit;
+    justify-content: center;
+}
+
+.container{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: rgb(27, 27, 27);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    background: rgba(255, 255, 255, 0.30);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    flex-basis: 400px;
+    height: 540px;
+    padding: 20px 35px;
+}
+
+.tela{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: rgb(27, 27, 27);
+    font-size: 35px;
+    overflow: auto;
+    padding: 20px;
+    text-align: right;
+    width: 326px;
+}
+
+.calc-botao-linha{
+    display: flex;
+    justify-content: space-between;
+    margin: 5% 0;
+}
+
+.calc-botao{
+    backdrop-filter: (blur)5.5px;
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;    
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: rgb(27, 27, 27);
+    flex-basis: 20%;
+    font-family: inherit;
+    font-size: 24px;
+    height: 65px;
+}
+
+.calc-botao:last-child{
+    backdrop-filter: (blur)5.5px;
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 16px;    
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    color: #ffffff;
+    background: rgb(194, 51, 51);
+}
+
+.calc-botao:last-child:hover{
+    background-color: inherit;
+    color: inherit;
+}
+
+.calc-botao:hover{
+    background-color: inherit;
+}
+
+.calc-botao:active{
+    background-color: rgb(194, 51, 51);
+}
+
+.duplo{
+    flex-basis: 47%;
+}
+
+.triplo{
+    flex-basis: 73%;
+}
